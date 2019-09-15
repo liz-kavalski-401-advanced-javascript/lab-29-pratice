@@ -6,7 +6,7 @@
 
 ### Links and Resources
 * [submission PR](https://github.com/liz-kavalski-401-advanced-javascript/lab-29-pratice)
-* [CodeSandbox](https://codesandbox.io/s/class-29-starter-code-ln9op) (when applicable)
+* [CodeSandbox](https://codesandbox.io/s/class-29-starter-code-ln9op) 
 
 
 ### Modules
