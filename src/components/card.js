@@ -4,20 +4,20 @@ import Deck from "../components/deck.js";
 
 class Card extends React.Component {
   render() {
-    let cards=this.props.card;
-    console.log(cards.links)
+    console.log(this.props.card)
     return (
       <>
         <header>
-          <h3>{cards.title}</h3>
+          <h3>{this.props.card.title}</h3>
         </header>
-        <div className="">{cards.copy}</div>
+        <div className="">{this.props.card.copy}</div>
         <figure>
           <img
-            src={cards.media.href}
-            alt={cards.media.alt}
+            src={this.props.card.media.href}
+            title={this.props.card.media.title}
+            alt={this.props.card.media.alt}
           />
-          <figcaption>{cards.media.title}</figcaption>
+          <figcaption>{this.props.card.media.title}</figcaption>
         </figure>
         {/* <nav className="links">
           <ul>
